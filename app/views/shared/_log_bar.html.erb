@@ -1,0 +1,13 @@
+<div class="title bar">
+	<% if logged_in? %>
+
+		<%= button_to "Sign Out", session_url, method: :delete %>
+
+	<% else %>
+
+		<%= link_to "Sign In", new_session_url %>
+		<%= link_to "Create Account", new_user_url %>
+
+	<% end %>
+
+</div>

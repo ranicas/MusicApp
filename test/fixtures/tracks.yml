@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  references: 
+  type: 
+  lyrics: MyText
+
+two:
+  references: 
+  type: 
+  lyrics: MyText
